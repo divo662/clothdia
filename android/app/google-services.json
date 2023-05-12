@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1053979115147",
+    "project_id": "clothdia-509e1",
+    "storage_bucket": "clothdia-509e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053979115147:android:e4230fd67aa864de02de8e",
+        "android_client_info": {
+          "package_name": "com.example.store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053979115147-30m1fh5k1shj9fo8s5nhkk1c2taocicu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.store",
+            "certificate_hash": "edefa256ab9165a681fc0310108689fcfade1f41"
+          }
+        },
+        {
+          "client_id": "1053979115147-eiom8tggt043og620q5jhtvcd5901brl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9GQAYR-DGwF0xfgBguhQ4y6PlYzUagog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053979115147-eiom8tggt043og620q5jhtvcd5901brl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

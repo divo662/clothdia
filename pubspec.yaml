@@ -1,0 +1,300 @@
+name: store
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0-290.1.beta <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_slider: ^4.2.1
+  smooth_page_indicator: ^1.0.1
+  google_nav_bar: ^5.0.6
+  provider: ^6.0.5
+  google_fonts: ^4.0.3
+  animated_text_kit: ^4.2.2
+  badges: ^3.1.0
+  line_icons: ^2.0.1
+  shared_preferences: ^2.1.0
+  http: ^0.13.5
+  flutter_credit_card: ^3.0.6
+  cloud_firestore: ^4.5.1
+  firebase_auth: ^4.4.1
+  firebase_core: ^2.9.0
+  fluttertoast: ^8.2.1
+  dots_indicator: ^2.1.0
+  math_expressions: ^2.4.0
+  mailer: ^6.0.1
+  intl: ^0.17.0
+  cupertino_icons: ^1.0.5
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/photo8.jpeg
+    - images/clothdia6.png
+    - images/clothdia5.png
+    - images/photo7.webp
+    - images/photo5.jpeg
+    - images/photo4.jpeg
+    - images/photo10.jpg
+    - images/clothdia2.png
+    - images/canvas.jpg
+    - images/fila.jpeg
+    - images/gucci1.jpg
+    - images/handy3.jpg
+    - images/menc3.png
+    - images/nike1.jpeg
+    - images/bag2.png
+    - images/ws8.jpg
+    - images/ws4.jpg
+    - images/men3.png
+    - images/suit1.jpeg
+    - images/shirt4.jpg
+    - images/photo2.webp
+    - images/bag6.png
+    - images/cap5.png
+    - images/dress8.png
+    - images/glass5.png
+    - images/men3.png
+    - images/watch 5.png
+    - images/kid10.png
+    - images2/dress5.png
+    - images2/leg3.png
+    - images2/match5.png
+    - images2/men5.png
+    - images2/men11.png
+    - images2/nike6.jpg
+    - images2/shirt2.jpeg
+    - images2/shoe3.png
+    - images2/shoe8.png
+    - images2/shoe11.png
+    - images/men10.png
+    - images/men9.png
+    - images/men8.png
+    - images/men7.png
+    - images/men2.png
+    - images/men1.png
+    - images/men6.png
+    - images2/dress2.png
+    - images2/dress4.png
+    - images2/dress4.png
+    - images2/dress7.png
+    - images2/dress10.png
+    - images2/dress3.png
+    - images2/s3.png
+    - images2/s4.png
+    - images2/s5.png
+    - images2/s6.png
+    - images2/s7.png
+    - images2/s8.png
+    - images2/s9.png
+    - images2/s11.png
+    - images2/s12.png
+    - images2/t1.png
+    - images2/t2.png
+    - images2/t5.png
+    - images2/t6.png
+    - images2/t7.png
+    - images2/t8.png
+    - images2/ud2.png
+    - images2/ud3.png
+    - images2/ud4.png
+    - images2/ud5.webp
+    - images2/ud7.webp
+    - images2/ud8.png
+    - images2/ud9.png
+    - images2/ud11.webp
+    - images2/wd1.jpeg
+    - images2/w3.png
+    - images2/w4.png
+    - images2/w5.png
+    - images2/w6.png
+    - images2/w7.png
+    - images2/w9.png
+    - images2/w11.png
+    - images2/w12.png
+    - images2/skirt2.png
+    - images2/skirt3.png
+    - images2/skirt4.png
+    - images2/skirt7.png
+    - images2/skirt9.png
+    - images2/skirt10.png
+    - images2/pant2.png
+    - images2/pant3.png
+    - images2/pant4.png
+    - images2/pant5.png
+    - images2/pant6.png
+    - images2/pant7.png
+    - images2/pant8.png
+    - images2/pant9.png
+    - images2/gown10.png
+    - images2/gown7.png
+    - images2/gown8.png
+    - images2/gown1.png
+    - images2/gown.png
+    - images2/gown11.png
+    - images2/gown6.png
+    - images2/gown5.png
+    - images2/bra1.png
+    - images2/bra2.png
+    - images2/bra3.png
+    - images2/bra4.png
+    - images2/bra5.png
+    - images2/bra6.png
+    - images2/kid4.png
+    - images2/male7.png
+    - images2/male6.png
+    - images2/male4.png
+    - images2/male3.png
+    - images2/male2.png
+    - images2/male1.png
+    - images2/female1.png
+    - images2/female2.png
+    - images2/female4.png
+    - images2/female6.png
+    - images2/kid1.png
+    - images2/kid2.png
+    - images2/glasse.jpg
+    - images2/mglass6.png
+    - images2/mglass5.png
+    - images2/mglass4.png
+    - images2/mglass3.png
+    - images2/mglass2.png
+    - images2/mglass1.png
+    - images2/wglass11.png
+    - images2/wglass10.png
+    - images2/wglass9.png
+    - images2/wglass8.png
+    - images2/wglass7.png
+    - images2/wglass5.png
+    - images/handy5.jpg
+    - images/handy13.png
+    - images/handy12.png
+    - images/handy11.png
+    - images/handy10.png
+    - images/handy9.png
+    - images/handy8.png
+    - images/shoe2.png
+    - images2/watchda.jpeg
+    - images/watch2.png
+    - images/watch3.png
+    - images/watch 4.png
+    - images/watch 5.png
+    - images/match1.png
+    - images/match2.png
+    - images/match3.png
+    - images/match6.png
+    - images/cap5.png
+    - images/cap11.png
+    - images/cap10.png
+    - images/cap9.png
+    - images/cap7.png
+    - images/wc6.png
+    - images/wc5.png
+    - images/wc4.webp
+    - images/wc3.png
+    - images2/nike1.jpeg
+    - images2/shoe1.png
+    - images2/shoe3.png
+    - images2/shoe5.png
+    - images2/shoe10.png
+    - images/shoe11.png
+    - images2/wshoe10.png
+    - images2/wshoe9.png
+    - images2/wshoe3.png
+    - images2/wshoe1.webp
+    - images2/wshoe2.webp
+    - images2/mshoe5.png
+    - images2/menc2.jpg
+    - images2/nike4.jpg
+    - images2/nike6.jpg
+    - images2/shirt1.jpeg
+    - images2/shirt2.jpeg
+    - images2/suit3.jpg
+    - images2/wd1.jpeg
+    - images2/watchda.jpeg
+    - images2/ws5.jpg
+    - images2/ws3.jpg
+    - images/ae.png
+    - images/diners.png
+    - images/jcb.png
+    - images/mastercard.png
+    - images/verve.png
+    - images/visa.png
+    - images/discover.png
+    - images/logo.png
+    - images/applogo.png
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
